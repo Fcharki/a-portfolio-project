@@ -5,6 +5,7 @@
             display: inline-block;
             width: 60px;
             height: 34px;
+            color:#0d4d82;
           }
           
           /* Hide default HTML checkbox */
@@ -40,7 +41,7 @@
           }
           
           input:checked + .slider {
-            background-color: #2196F3;
+            background-color: #1479cb;
           }
           
           input:focus + .slider {
@@ -66,7 +67,7 @@
 
           #green{
 
-            background-color: rgb(87, 161, 87);
+            background-color: #31afee;
             width: 50%;
           }
 
@@ -84,6 +85,7 @@
 
           .direction-column{
             flex-direction: column;
+            padding: 15px;
           }
 
 
@@ -94,6 +96,8 @@
 
           .color{
             color:white;
+            font-size: 17px;
+            padding: 5px;
           }
          .center{
             text-align: center;
@@ -109,7 +113,8 @@
          }
 
          .dark{
-            background-color: rgba(169, 168, 168, 0.963);
+          background-color: rgb(243, 200, 45);
+
          }
          .btn{
             padding: 10px;
@@ -119,60 +124,17 @@
             
          }
   
-
-         .facebook{
-            background-image: url("img/fb.svg");
-            background-size:35px;
-            background-position-y: 5px;
-            background-position-x: 13px;
-
-         }
-
-         .instagram{
-            background-image: url("img/insta.svg");
-        
-         }
-
-         .snapchat{
-            background-image: url("img/snapchat.svg");
-            background-size:45px;
-            background-position-y: 10px;
-            background-position-x: 8px;
-            
-
-         }
-
-         .twitter{
-            background-image: url("img/twitter.svg");
-            background-size:50px;
-            background-position-y: 12px;
-            background-position-x: 8px;
-         
-         }
-
-         .linkedin{
-            background-image: url("img/linkedin.svg");
-        
-         } 
-
-
-
-         
-        #RS i{
-  
-          width:60px;
-          height: 60px;
-          border-radius: 50%;
-          border: 1px white solid;
-          padding: 10px; 
-          margin: 10px;
-
+        #social-icons a{
+        text-decoration: none;
+        color: azure;
+        margin:10px;
+        font-size: 30px;
+        padding: 15px;
+        font-weight: 400;
         }
-
 
          a[href="#"]{
           text-decoration: none;
-
          }
 
          .none{
@@ -182,33 +144,21 @@
 
          .pad-left{
           padding-left: 10px;
+          margin-right: 10px;
          }
 
-        /* h4:not(.no){
-          padding-left: 20px;
-         } */
 
          .space{text-indent: 25px;}
 
          .lien-vert{
-          color: rgb(37, 198, 37)
+          color: #31afee;
          }
 
          .float{
           float:right;
+          margin-left: 10px;
         
         }
-        
-        /* .clearfix {
-          overflow: auto;
-        }
-
-
-        .clearfix::after{
-            content: "";
-            clear: both;
-            display: table;
-        } */
 
         h1,h4,.bold{
           font-weight: bold;
@@ -237,7 +187,7 @@
         }
 
         .bg-green{
-          background-color: rgb(87, 161, 87) ;
+          background-color: #31afee ;
 
         }
 
@@ -302,6 +252,18 @@
           border: none;
           margin: 20px;
         }
+
+        .container{
+          margin-top: 4px;
+          margin-right: 5px;
+        }
+
+        ::selection{
+          color: black;
+          background-color: rgb(237, 223, 116);
+        }
+    
+    
 
 
 
