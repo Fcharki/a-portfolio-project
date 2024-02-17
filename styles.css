@@ -126,9 +126,13 @@
   
         #social-icons a{
         text-decoration: none;
-        color: azure;
+        /* color: azure; */
+        /* color:  rgb(247, 194, 6);
+        color
+         */
+         color: black;
         margin:10px;
-        font-size: 30px;
+        font-size: 31px;
         padding: 15px;
         font-weight: 400;
         }
